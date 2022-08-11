@@ -2,15 +2,16 @@
     margin :0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .hero{
     width: 100%;
-    min-height: 140vh;
-    background-image:url(image/bg.jpg);
+    min-height: 100vh;
+    background-image:url(image/bgh.jpg);
     background-position:center;
-    background-size:cover;
+    background-size: 97% ;
+    
     padding:10px 10%;
     overflow:hidden;
     position:relative;
@@ -18,7 +19,7 @@
 }
   
 nav{
-    padding: 10px 0;
+    padding: 10px 10px;
     display: flex;
     align-items:center;
     justify-content:space-between;
@@ -37,14 +38,17 @@ nav ul li{
 
 nav ul li a{
    text-decoration: none;
-   color:rgb(247, 127, 8);
-    font-weight: 400;
+   color:rgb(247, 171, 7);
+    font-weight: 500;
+    text-shadow:rgb(0, 0, 0);
+    font-size: 20px;
+    box-sizing:border-box;
 
 }
 
 .login-btn {
     text-decoration: none;
-    color : rgb(247, 127, 8);
+    color : rgb(252, 189, 16);
     margin-right: 15px;
     font-weight: 400;
 }
@@ -54,7 +58,7 @@ nav ul li a{
     text-decoration: none;
     padding: 14px 40px;
     color:rgb(255, 249, 249);
-    background-image: linear-gradient(45deg,#eea70e,#0e82ee);
+    background-image: linear-gradient(45deg,#424242,#ee0e0e);
     font-size: 14px; 
     border-radius: 40px;
     border-top-right-radius: 0;
@@ -63,7 +67,7 @@ nav ul li a{
 
 .content{
     margin-top: 10%;
-    max-width: 600px;
+    max-width: 700px;
 
 }
 
@@ -74,8 +78,8 @@ nav ul li a{
 
 .content p{
     margin:10px 0 30px;
-    color:rgb(13, 110, 255);
-    text-shadow: 2px 2px 5px rgb(102, 102, 102);
+    color:rgb(230, 230, 230);
+    text-shadow: 2px 2px 5px rgb(24, 24, 23);
     animation-delay: 0.5s;
 }
 
@@ -90,11 +94,16 @@ nav ul li a{
 }
 
 .feature-img{
-    width: 460px;
+    width: 1050px ;
+  
     position:absolute;
     bottom: 0;
-    right: 10%;
-
+    min-width: 10%;
+    height: auto;
+    right: 0px;
+    left: 700px;
+    image-resolution: 20px;
+    
 }
 
 .feature-img.anim{
