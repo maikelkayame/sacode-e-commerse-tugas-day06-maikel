@@ -10,7 +10,7 @@
     min-height: 100vh;
     background-image:url(image/bgh.jpg);
     background-position:center;
-    background-size: 97% ;
+    background-size:cover;
     
     padding:10px 10%;
     overflow:hidden;
@@ -51,6 +51,7 @@ nav ul li a{
     color : rgb(252, 189, 16);
     margin-right: 15px;
     font-weight: 400;
+    font-size: 20px;
 }
 
 .btn{
@@ -74,6 +75,7 @@ nav ul li a{
 .content h1{
     font-size:70px;
     color:rgb(247, 161, 2)
+    
 }
 
 .content p{
@@ -81,6 +83,7 @@ nav ul li a{
     color:rgb(230, 230, 230);
     text-shadow: 2px 2px 5px rgb(24, 24, 23);
     animation-delay: 0.5s;
+    font-size: 20px;
 }
 
 .content .btn{
@@ -94,16 +97,13 @@ nav ul li a{
 }
 
 .feature-img{
-    width: 1050px ;
+    width: 1150px ;
   
     position:absolute;
     bottom: 0;
     min-width: 10%;
     height: auto;
-    right: 0px;
-    left: 700px;
-    image-resolution: 20px;
-    
+    right: -11%;
 }
 
 .feature-img.anim{
